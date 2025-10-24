@@ -41,3 +41,5 @@ jobs:
       - name: build del Back
         working-directory: src/Backend/OrderService
         run: ./gradlew build test
+        
+# noop: trigger workflow run to ensure GitHub Actions uses the latest fixed YAML
